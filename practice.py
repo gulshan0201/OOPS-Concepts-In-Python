@@ -30,6 +30,12 @@
 # print(arr)
 # # print("Memory address of first element:", arr.ctypes.data)
 
-arr = [10, 20, 30]
-print("ID of first element:", id(arr[0]))
-print("ID of second element:", id(arr[1]))
+# arr = [67,89,55,43,12]
+
+# for i in range(10):
+#     print(i)
+
+arr = [10, 20, 30, 40, 50]
+
+for i in range(len(arr)):
+    print(f"Index {i} has value {arr[i]}")
