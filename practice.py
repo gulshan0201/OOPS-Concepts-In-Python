@@ -91,3 +91,22 @@
 
 # c = 675
 # print(round(c,-1)) # this will print 680 as we have the same above value it will print value of 680 closest value of 10^-(-1)
+
+def count_frequencies(arr):
+    count_dict = {}
+    
+    for num in arr:
+        if num in count_dict:
+            count_dict[num] += 1
+        else:
+            count_dict[num] = 1
+    
+    return count_dict
+
+
+# Example usage
+arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 1]
+result = count_frequencies(arr)
+
+for key, value in result.items():
+    print(f"{key} appears {value} times")
