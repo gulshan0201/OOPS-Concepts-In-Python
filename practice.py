@@ -74,3 +74,20 @@
 # height = float(input("Enter height in cm: "))
 # BMI = weight/(height**2)
 # print(int(BMI))
+
+
+#---------------------------Rounding of function------------------------------
+# In this case of rounding we are declarin two values in the round function one is the value and second is the 
+# no of decimal values which we want to print  
+
+# int = 98.2355
+# print(round(int,1))
+
+# n = 11.5
+# print(round(n,2))
+
+# m = 656
+# print(round(m,-1)) #670 in case of -1 it will return a value closest multiple of 10^-(-1) so it will give 670
+
+# c = 675
+# print(round(c,-1)) # this will print 680 as we have the same above value it will print value of 680 closest value of 10^-(-1)
