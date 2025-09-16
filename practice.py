@@ -35,7 +35,18 @@
 # for i in range(10):
 #     print(i)
 
-arr = [10, 20, 30, 40, 50]
+# arr = [10, 20, 30, 40, 50]
 
-for i in range(len(arr)):
-    print(f"Index {i} has value {arr[i]}")
+# for i in range(len(arr)):
+#     print(f"Index {i} has value {arr[i]}")
+
+# Identity operators in python
+#identity operators in this below solution we will get a ouput True why? 
+#In this case as we can notice that both a and b have same value but the logic behind this is both the values 
+# of a and b are getting stored in the same values so in this case it will give true as python is a object oriented 
+# programing language the object is getting stored in the same id..  
+a = 5
+b = 5
+print(id(a)) #102962020996136
+print(id(b)) #102962020996136
+print(a  is b) #True
