@@ -65,3 +65,12 @@
 # print(1 in list_one) #True
 # print(1 not in list_one) #False
 # print(3 not in list_one) #True
+
+
+#---------------------------------Coding Exercise----------------------------
+#Question: Calculate the BMI the answer must be a round of value 
+
+# weight = int(input("Enter weight in m: "))
+# height = float(input("Enter height in cm: "))
+# BMI = weight/(height**2)
+# print(int(BMI))
