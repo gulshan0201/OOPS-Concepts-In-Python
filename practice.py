@@ -92,21 +92,66 @@
 # c = 675
 # print(round(c,-1)) # this will print 680 as we have the same above value it will print value of 680 closest value of 10^-(-1)
 
-def count_frequencies(arr):
-    count_dict = {}
+# def count_frequencies(arr):
+#     count_dict = {}
     
-    for num in arr:
-        if num in count_dict:
-            count_dict[num] += 1
-        else:
-            count_dict[num] = 1
+#     for num in arr:
+#         if num in count_dict:
+#             count_dict[num] += 1
+#         else:
+#             count_dict[num] = 1
     
-    return count_dict
+#     return count_dict
 
 
-# Example usage
-arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 1]
-result = count_frequencies(arr)
+# # Example usage
+# arr = [1, 2, 3, 4, 5, 6, 1, 2, 3, 1]
+# result = count_frequencies(arr)
 
-for key, value in result.items():
-    print(f"{key} appears {value} times")
+# for key, value in result.items():
+#     print(f"{key} appears {value} times")
+
+
+#F String functions
+# age = 9
+# name = "Gulshan"
+
+# print(f"My name is {name} and my age is {age*2}")
+
+# age = int(input("Enter your age"))
+
+# years_left = 90 - age 
+
+# print(f"Hi my name is Sam and i am going to live for {years_left * 365} days {years_left * 12} months and {years_left * 52} weeks ")
+
+
+
+# def find_num(arr):
+#     count_num = {}
+
+#     for num in arr:
+#         if num in count_num:
+#             count_num[num] += 1
+#         else:
+#             count_num[num] = 1    
+#     return count_num
+
+# arr = [9,8,7,6,5,9,7,8,5,1,1]
+# result = find_num(arr)
+# for key, value in result.items():
+#     print(f"{key} appears {value} times")
+
+
+
+# height = int(input("Enter height of child"))
+
+# if (height > 3):
+#     print("Ticket is req")
+# else:
+#     print("Ticket no req")     
+
+
+
+
+
+
