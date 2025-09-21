@@ -150,6 +150,58 @@
 # else:
 #     print("Ticket no req")     
 
+# num = int(input("enter the number: "))
+
+# if(num % 2 == 0):
+#     print("no is even")
+# else:
+#     print("no is odd")    
+
+
+# def even(n):
+#     rem = n % 2 
+#     if rem == 0:
+#         return True
+#     else:
+#         return False
+
+# if __name__ == "__main__":
+#     n = 10
+#     if even(n):
+#         print("Even")
+#     else:
+#         print("Odd")    
+
+# def is_even(n):
+#     if (n & 1) == 0:
+#         return True
+#     else:
+#         return False 
+    
+# if __name__ == "__main__":
+#     n = 8
+#     if is_even(n):
+#         print("Even")
+#     else:
+#         print("Odd")
+
+
+weight = float(input("Enter your weight: "))
+height = float(input("Enter your height: "))
+
+BMI = weight/height ** 2
+
+if BMI < 18.5:
+    print(f"Your BMI is {BMI} you are underweight")
+elif BMI < 25:
+    print(f"Your BMI is {BMI} you are normal weight")
+elif BMI < 30:
+    print(f"Your BMI is {BMI} you are overwight")
+else:
+    print(f"Your BMI is {BMI} you are obees")            
+ 
+     
+
 
 
 
