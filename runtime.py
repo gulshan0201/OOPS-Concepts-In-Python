@@ -186,22 +186,42 @@
 #         print("Odd")
 
 
-weight = float(input("Enter your weight: "))
-height = float(input("Enter your height: "))
+# weight = float(input("Enter your weight: "))
+# height = float(input("Enter your height: "))
 
-BMI = weight/height ** 2
+# BMI = weight/height ** 2
 
-if BMI < 18.5:
-    print(f"Your BMI is {BMI} you are underweight")
-elif BMI < 25:
-    print(f"Your BMI is {BMI} you are normal weight")
-elif BMI < 30:
-    print(f"Your BMI is {BMI} you are overwight")
-else:
-    print(f"Your BMI is {BMI} you are obees")            
+# if BMI < 18.5:
+#     print(f"Your BMI is {BMI} you are underweight")
+# elif BMI < 25:
+#     print(f"Your BMI is {BMI} you are normal weight")
+# elif BMI < 30:
+#     print(f"Your BMI is {BMI} you are overwight")
+# else:
+#     print(f"Your BMI is {BMI} you are obees")     
+
+class Dog:
+    def __init__(self, name, breed): 
+            self.name = name
+            self.breed = breed
+
+    def bark(self):
+            print(f"{self.name} says Woof!")
+
+my_dog = Dog("Buddy", "Golden Retriever") 
+my_dog.bark()
  
      
+class Employee:
+        def __init__(self,name,designation):
+               self.name = name
+               self.designation = designation
 
+        def work(self):
+               print(f"{self.name} {self.designation} please complete the front-end task")
+
+my_employee = Employee("Rohan", "Senior Developer")
+my_employee.work()
 
 
 
